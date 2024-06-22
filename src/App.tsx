@@ -5,7 +5,7 @@ import MainPage from "./components/mainPage";
 
 function App() {
   const [comfirm, isConfirm] = useState<boolean>(false);
-  const realPassword = "Rhe Xia";
+  const realPassword = "May";
   const [password, isPassword] = useState<string>("");
 
   const clickFunction = (event: any) => {

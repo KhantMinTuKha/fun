@@ -7,7 +7,7 @@ const WelcomePage = ({ handleClick, clickFunction }: Props) => {
   return (
     <div className="w-screen h-screen flex justify-center items-center flex-col gap-y-2">
       <div>
-        <h1>Hello! Are u Thae?</h1>
+        <h1>Hello! Are u May?</h1>
         <div className="my-5">
           <p className="pb-2">Password</p>
           <input
@@ -20,7 +20,7 @@ const WelcomePage = ({ handleClick, clickFunction }: Props) => {
           className="border px-5 py-2 mt-3 hover:bg-slate-300 transition-all duration-200"
           onClick={handleClick}
         >
-          Comfirm
+          Confirm
         </button>
       </div>
     </div>
